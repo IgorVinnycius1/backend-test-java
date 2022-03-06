@@ -1,0 +1,25 @@
+{
+  "name": "backend-test-java",
+  "version": "1.0.0",
+  "description": "*\"Queremos ser como uma árvore, \r   crescer um pouco todos os dias e tentar tocar o céu, \r   sem perder a solidez de nossas raízes.\"*\r Conheça: www.fcamara.com.br",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IgorVinnycius1/backend-test-java.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IgorVinnycius1/backend-test-java/issues"
+  },
+  "homepage": "https://github.com/IgorVinnycius1/backend-test-java#readme",
+  "dependencies": {
+    "next": "^12.1.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}
