@@ -1,0 +1,46 @@
+[
+    {
+        "title": "Mr",
+        "firstName": "Frank",
+        "lastName": "Murphy",
+        "email": "frank.murphy@rustvale.com",
+        "role": "Admin",
+        "password": "sue123",
+        "id": 1,
+        "dateCreated": "2021-04-08T05:33:05.184Z",
+        "dateUpdated": "2022-03-07T19:34:31.453Z"
+    },
+    {
+        "title": "Mr",
+        "firstName": "John",
+        "lastName": "Walance",
+        "email": "walance.2@gmail.com",
+        "role": "User",
+        "password": "123456",
+        "id": 2,
+        "dateCreated": "2022-03-07T14:53:10.158Z",
+        "dateUpdated": "2022-03-07T14:53:10.158Z"
+    },
+    {
+        "title": "Miss",
+        "firstName": "fortune",
+        "lastName": "idk",
+        "email": "idk@gmail.com",
+        "role": "User",
+        "password": "123456",
+        "id": 3,
+        "dateCreated": "2022-03-07T14:53:43.576Z",
+        "dateUpdated": "2022-03-07T14:53:43.576Z"
+    },
+    {
+        "title": "Mr",
+        "firstName": "John",
+        "lastName": "idk",
+        "email": "walance.32@gmail.com",
+        "role": "User",
+        "password": "1234567",
+        "id": 4,
+        "dateCreated": "2022-03-07T18:41:29.611Z",
+        "dateUpdated": "2022-03-07T18:41:29.611Z"
+    }
+]
