@@ -18,12 +18,12 @@ function getById(id) {
     return users.find(x => x.id.toString() === id.toString());
 }
 
-function create({ title, firstName, lastName, email, role, password }) {
-    const user = { title, firstName, lastName, email, role, password };
+function create({ tipo, placa, marca, modelo, cor }) {
+    const user = { tipo, placa, marca, modelo, cor };
 
     // validate
-    if (users.find(x => x.email === user.email))
-        throw `User with the email ${user.email} already exists`;
+    if (users.find(x => x.placa === user.placa))
+        throw `Veículo com a placa ${user.placa} já foi adicionado`;
 
     // generate new user id
     user.id = users.length ? Math.max(...users.map(x => x.id)) + 1 : 1;
@@ -37,18 +37,13 @@ function create({ title, firstName, lastName, email, role, password }) {
     saveData();
 }
 
-function update(id, { title, firstName, lastName, email, role, password }) {
-    const params = { title, firstName, lastName, email, role, password };
+function update(id, { tipo, placa, marca, modelo, cor }) {
+    const params = { tipo, placa, marca, modelo, cor };
     const user = users.find(x => x.id.toString() === id.toString());
 
     // validate
-    if (params.email !== user.email && users.find(x => x.email === params.email))
-        throw `User with the email ${params.email} already exists`;
-
-    // only update password if entered
-    if (!params.password) {
-        delete params.password;
-    }
+    if (params.placa !== user.placa && users.find(x => x.placa === params.placa))
+        throw `Veículo com a placa ${params.placa} já foi adicionado`;
 
     // set date updated
     user.dateUpdated = new Date().toISOString();
