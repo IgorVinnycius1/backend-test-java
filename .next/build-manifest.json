@@ -29,10 +29,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/empresas.js"
     ],
-    "/users/edit/[id]": [
+    "/users/add": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/users/edit/[id].js"
+      "static/chunks/pages/users/add.js"
     ]
   },
   "ampFirstPages": []

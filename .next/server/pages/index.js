@@ -520,7 +520,7 @@ const apiUrl = true ? 'http://localhost:3000/api' // development api
 /*! exports provided: 0, default */
 /***/ (function(module) {
 
-module.exports = JSON.parse("[{\"nome\":\"Fé\",\"cnpj\":\"1524251455412\",\"endereco\":\"rua teste, tenha fé\",\"telefone\":\"11914512157\",\"qtdvgcarro\":\"123\",\"qtdvgmoto\":\"123\",\"id\":1,\"dateCreated\":\"2022-03-10T01:15:53.276Z\",\"dateUpdated\":\"2022-03-10T01:15:53.276Z\"}]");
+module.exports = JSON.parse("[{\"nome\":\"Faith\",\"cnpj\":\"1234567891011\",\"endereco\":\"Faith Street, 7, Avenue Yes\",\"telefone\":\"11977701251\",\"qtdvgcarro\":\"100\",\"qtdvgmoto\":\"70\",\"id\":2,\"dateCreated\":\"2022-03-10T01:33:06.034Z\",\"dateUpdated\":\"2022-03-10T01:33:06.034Z\"}]");
 
 /***/ }),
 
@@ -528,10 +528,10 @@ module.exports = JSON.parse("[{\"nome\":\"Fé\",\"cnpj\":\"1524251455412\",\"end
 /*!*************************!*\
   !*** ./data/users.json ***!
   \*************************/
-/*! exports provided: default */
+/*! exports provided: 0, 1, 2, default */
 /***/ (function(module) {
 
-module.exports = JSON.parse("[]");
+module.exports = JSON.parse("[{\"tipo\":\"Carro\",\"placa\":\"ABCD 123\",\"marca\":\"Hyundai\",\"modelo\":\"HB20\",\"cor\":\"Branca\",\"id\":1,\"dateCreated\":\"2022-03-10T01:34:46.006Z\",\"dateUpdated\":\"2022-03-10T01:34:46.006Z\"},{\"tipo\":\"Carro\",\"placa\":\"1234 Abc\",\"marca\":\"Chevrolet\",\"modelo\":\"Prisma\",\"cor\":\"Vermelho\",\"id\":2,\"dateCreated\":\"2022-03-10T01:35:03.874Z\",\"dateUpdated\":\"2022-03-10T01:35:03.874Z\"},{\"tipo\":\"Moto\",\"placa\":\"XYZ 1567\",\"marca\":\"Honda\",\"modelo\":\"CG 160 Start\",\"cor\":\"preto\",\"id\":3,\"dateCreated\":\"2022-03-10T01:35:54.871Z\",\"dateUpdated\":\"2022-03-10T01:35:54.871Z\"}]");
 
 /***/ }),
 

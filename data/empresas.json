@@ -1,13 +1,13 @@
 [
     {
-        "nome": "Fé",
-        "cnpj": "1524251455412",
-        "endereco": "rua teste, tenha fé",
-        "telefone": "11914512157",
-        "qtdvgcarro": "123",
-        "qtdvgmoto": "123",
-        "id": 1,
-        "dateCreated": "2022-03-10T01:15:53.276Z",
-        "dateUpdated": "2022-03-10T01:15:53.276Z"
+        "nome": "Faith",
+        "cnpj": "1234567891011",
+        "endereco": "Faith Street, 7, Avenue Yes",
+        "telefone": "11977701251",
+        "qtdvgcarro": "100",
+        "qtdvgmoto": "70",
+        "id": 2,
+        "dateCreated": "2022-03-10T01:33:06.034Z",
+        "dateUpdated": "2022-03-10T01:33:06.034Z"
     }
 ]

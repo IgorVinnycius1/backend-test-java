@@ -1,1 +1,32 @@
-[]
+[
+    {
+        "tipo": "Carro",
+        "placa": "ABCD 123",
+        "marca": "Hyundai",
+        "modelo": "HB20",
+        "cor": "Branca",
+        "id": 1,
+        "dateCreated": "2022-03-10T01:34:46.006Z",
+        "dateUpdated": "2022-03-10T01:34:46.006Z"
+    },
+    {
+        "tipo": "Carro",
+        "placa": "1234 Abc",
+        "marca": "Chevrolet",
+        "modelo": "Prisma",
+        "cor": "Vermelho",
+        "id": 2,
+        "dateCreated": "2022-03-10T01:35:03.874Z",
+        "dateUpdated": "2022-03-10T01:35:03.874Z"
+    },
+    {
+        "tipo": "Moto",
+        "placa": "XYZ 1567",
+        "marca": "Honda",
+        "modelo": "CG 160 Start",
+        "cor": "preto",
+        "id": 3,
+        "dateCreated": "2022-03-10T01:35:54.871Z",
+        "dateUpdated": "2022-03-10T01:35:54.871Z"
+    }
+]

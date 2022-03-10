@@ -88,7 +88,7 @@ function AddEditEmpresas(props) {
                 <div className="form-group col-3">
                     <label>Telefone</label>
                     <input name="telefone" type="text" {...register('telefone')} className={`form-control ${errors.telefone ? 'is-invalid' : ''}`} />
-                    <div className="invalid-feedback">{errors.modelo?.telefone}</div>
+                    <div className="invalid-feedback">{errors.telefone?.message}</div>
                 </div>
 
                 <div className="form-group col-3">
