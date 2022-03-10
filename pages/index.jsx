@@ -7,6 +7,7 @@ function Home() {
         <div>
             <h1>Bem-vindo(a) ao EstacionamentON!</h1>
             <p>Aqui você pode gerenciar o estacionamento de sua empresa de forma dinâmica!</p>
+            <p><Link href="/empresas">&gt;&gt; Cadastrar Empresa</Link></p>
             <p><Link href="/users">&gt;&gt; Gerenciar Estacionamento</Link></p>
         </div>
     );
