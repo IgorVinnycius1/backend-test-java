@@ -2,13 +2,6 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/empresas/edit/[empresa]": "pages/empresas/edit/[empresa].js",
   "/users/edit/[id]": "pages/users/edit/[id].js",
-  "/users": "pages/users.js",
-  "/api/users": "pages/api/users.js",
-  "/api/empresas": "pages/api/empresas.js",
-  "/api/users/[id]": "pages/api/users/[id].js",
-  "/empresas": "pages/empresas.js",
-  "/": "pages/index.js",
-  "/api/empresas/[empresa]": "pages/api/empresas/[empresa].js"
+  "/empresas": "pages/empresas.js"
 }
